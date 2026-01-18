@@ -3,23 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>Check-in system</title>
+  <style>
+    body { font-family: Arial; text-align: center; padding: 50px; }
+    h2 { color: #2E86C1; }
+    p { font-size: 18px; }
+    a.button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 20px;
+      color: white;
+      background-color: #28a745;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+  </style>
 
   <script>
-    // Надёжный редирект, обходящий Google Drive WebView
-    window.top.location.href =
-      "https://script.google.com/macros/s/AKfycbwQGh7vW2Hzy0WvXCe0fV8YxkCniYIDk1Kg5bNjxIUC2V5c4niEjHaag9kXCie0Rg-j/exec";
+    // НАДЁЖНЫЙ JS РЕДИРЕКТ, обходящий Google Drive WebView
+    window.top.location.href = "https://script.google.com/macros/s/AKfycbx-5nbFSq-6i_kFtHlW1vPxQafADQrfEn8gMY5CHQLsmlfO7H43apd_0h-45yc1Sdo/exec";
   </script>
-
 </head>
 <body>
-  <p>Переход к системе регистрации…</p>
-
-  <p>
-    Если переход не произошёл автоматически,
-    <a href="https://script.google.com/macros/s/AKfycbwQGh7vW2Hzy0WvXCe0fV8YxkCniYIDk1Kg5bNjxIUC2V5c4niEjHaag9kXCie0Rg-j/exec"
-       target="_top">
-      нажмите здесь
-    </a>
-  </p>
+  <h2>Переход к системе регистрации</h2>
+  <p>Если переход не произошёл автоматически:</p>
+  <a href="https://script.google.com/macros/s/AKfycbx-5nbFSq-6i_kFtHlW1vPxQafADQrfEn8gMY5CHQLsmlfO7H43apd_0h-45yc1Sdo/exec" class="button" target="_top">
+    Перейти на страницу
+  </a>
 </body>
 </html>
